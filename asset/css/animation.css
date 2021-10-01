@@ -1,0 +1,8 @@
+.blockFadeIn1 {
+    animation: blockFadeIn1 0.5s ease;
+}
+
+.blockFadeOut1 {
+    animation: blockFadeOut1 0.5s ease;
+}
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/load.css">
+    <link rel="stylesheet" href="./asset/css/animation.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+</head>
+<body>
+    <div id='af-preloader'>
+
+        <div class='af-preloader-wrap'>
+      
+          <div class='af-sp af-sp-wave'></div>
+      
+        </div>
+      
+      </div>
+    <div id="main" onmousemove="setPosition(event)">
+        <div class="block">
+            <div class="block__left">
+                <div class="block__img">
+                </div>
+                <div class="block__info">
+                    <h2>Nguyễn Đ.Q.Anh</h2>
+                    <p>Tomboy loichoi</p>
+                    <div class="block__icon">
+                        <a target="blank" class="fab fa-facebook" href="https://www.facebook.com/quanh.jk.190803"></a>
+                        <a target="blank" class="fas fa-phone" href="callto:+18002684686"></a>
+                        <a target="blank" class="fab fa-instagram-square" href="https://www.youtube.com/"></a>
+                    </div>
+                </div>
+                <button class="block__button">CV của mình nè <i class="fas fa-heart" style="color: rgb(206, 45, 85);"></i> </button>
+                <div class="block__job">
+                    <p>Quanh 先生</p>
+                </div>
+            </div>
+            <div class="block__right">
+                <div class="block__home block_right_child block_active">
+                    <h2>nguyễn đào quỳnh anh</h2>
+                    <div class="block__subname">
+                        <p class="active">Tốt bụng</p>
+                        <p>Siêu cute</p>
+                        <p>Cô giáo Quanh</p>
+                    </div>
+                </div>
+                <div class="block__about block_right_child ">
+                    <h2>About<span> Me</span></h2>
+                    <div class="block_container">
+                        <div class="block__about__left">
+                    
+                            <p>
+                                Mình là Việt, còn có biệt danh khác là Vietter đừng nhầm lẫn Viettel nhá :>, hông là mình buồn mất :<. Mình là một con người rất thân thiện, hòa đồng, vui vẻ, hay học hỏi và giúp đỡ mọi người xung quanh. Mình muốn trở thành một kỹ sư quản trị mạng. Một công việc mà mình có thể vận dụng được tất cả những kiến thức về quy trình triển khai hệ thống, vận hành network và khả năng chuyên môn của bản thân.
+                            </p>
+                        </div>
+                        <div class="block__about__right">
+                            <p><span>Age:</span>18</p>
+                            <p><span>Residence:</span> Việt Nam</p>
+                            <p><span>Address:</span>Hà Nội</p>
+                            <p><span>e-mail:</span>quanh1983@gmail.com</p>
+                            <p><span>Phone:</span>0363310867</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__resume block_right_child  ">
+                    <h2>Resume</h2>
+
+                    <div class="block__resume__container">
+                        <div class="block__resume__left">
+                            <div class="block__resume__study">
+                                <h3>Học Tập</h3>
+                                <div class="block__time">
+                                    <p>
+                                        <span> 2021</span>
+                                        ĐẠI HỌC CÔNG NGHỆ TP.HCM - HUTECH
+                                    </p>
+                                    <div class="block__line"></div>   
+                                    <h4>Network Engineer</h4>                     
+                                </div>
+                                
+                            </div>
+                            <div class="block__resume__work">
+                                <h3>Quá Trình Làm Việc</h3>
+                               
+                                <div class="block__time">
+                                    <p>
+                                        <span> 2021</span>
+                                        ĐẠI HỌC CÔNG NGHỆ TP.HCM - HUTECH
+                                    </p>
+                                    <div class="block__line"></div>
+                                    <h4>Network Engineer</h4>
+                                </div>
+                                <div class="block__time">
+                                    <p>
+                                        <span> 2021</span>
+                                        ĐẠI HỌC CÔNG NGHỆ TP.HCM - HUTECH
+                                    </p>
+                                    <div class="block__line"></div>
+                                    <h4>Network Engineer</h4>
+                                </div>
+                                <div class="block__time">
+                                    <p>
+                                        <span> 2021</span>
+                                        ĐẠI HỌC CÔNG NGHỆ TP.HCM - HUTECH
+                                    </p>
+                                    <div class="block__line"></div>
+                                    <h4>Network Engineer</h4>
+                                </div>
+                                <div class="block__time">
+                                    <p>
+                                        <span> 2021</span>
+                                        ĐẠI HỌC CÔNG NGHỆ TP.HCM - HUTECH
+                                    </p>
+                                    <div class="block__line"></div>
+                                    <h4>Network Engineer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block__resume__right ">
+                            <h3>Design <span>Skills</span></h3>
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <h3 class="h3_head">Design <span>Skills</span></h3>
+                            
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <div class="block__resume__mana">
+                                <h4>Web Design</h4>
+                                <div class="mana">
+                                    <div class="mana_content"></div>
+                                </div>
+                            </div>
+                            <h3 class="h3_head">
+                                <span>Enjoy</span>
+                            </h3>
+                            <div class="block__resume__enjoy">
+                                <button>BTS</button>
+                                <button>Trà xanh</button>
+                                <button>Chơi game</button>
+                                <button>Phim hàn</button>
+                                <button>Trẻ nhỏ</button>
+                                <button>Xem phim</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__memory block_right_child ">
+                
+                    <h2>Memory</h2>
+                    <ul class="group_button">
+                        <li id="all" class="select">Tất cả</li>
+                        <li id="myself">Bản thân</li>
+                        <li id='family'>Gia đình</li>
+                        <li id="friend">Bạn bè</li>
+                    </ul>
+                    <div class="block__memory__content">
+                       
+                        <div class="block__memory__img myself friend myself family" style="padding: 0;" >
+                            <div style="display: none;"><img src="./asset/img/myself/1.jpg" alt=""></div>
+                        </div>
+                       
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/1.jpg" alt=""></div>
+                        </div>
+                        
+                        <div class="block__memory__img friend">
+                            <div><img src="./asset/img/friend/2.jpg" alt=""></div>
+                        </div>    
+                        <div class="block__memory__img friend">
+                            <div><img src="./asset/img/friend/3.jpg" alt=""></div>
+                        </div>    
+                           
+                         
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/8.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img family">
+                            <div><img src="./asset/img/family/4.jpg" alt=""></div>
+                        </div>    
+                          
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/9.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/3.jpg" alt=""></div>
+                        </div>
+                        
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/4.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img friend">
+                            <div><img src="./asset/img/friend/1.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/5.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/7.jpg" alt=""></div>
+                        </div>
+                        
+                        <div class="block__memory__img family">
+                            <div><img src="./asset/img/family/1.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/6.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img family">
+                            <div><img src="./asset/img/family/5.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img friend">
+                            <div><img src="./asset/img/friend/4.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/2.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img family">
+                            <div><img src="./asset/img/family/1.jpg" alt=""></div>
+                        </div>       
+                        <div class="block__memory__img family">
+                            <div><img src="./asset/img/family/2.jpg" alt=""></div>
+                        </div>         
+                     
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/11.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/12.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/13.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/14.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/15.jpg" alt=""></div>
+                        </div>
+                        <div class="block__memory__img myself">
+                            <div><img src="./asset/img/myself/16.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="header">
+        <ul class="header__nav">
+            <li><a href="#home" class="fas fa-home chose-icon"></a><p class="icon-info">HOME</p></li>
+            <li><a href="#about" class="fas fa-user"></a><p class="icon-info">GIỚI THIỆU</p></li>
+            <li><a href="#info" class="fas fa-graduation-cap"></a><p class="icon-info">TÓM TẮT</p></li>
+            <li><a href="#data" class="fas fa-briefcase"></a><p class="icon-info">KỈ NIỆM</p></li>
+        </ul>
+        
+        <ul class="header__buttons">
+            <li class="move_slide_right"><a href="#" class="fas fa-chevron-right"></a></li>
+            <li class="move_slide_left"><a href="#" class="fas fa-chevron-left"></a></li>
+        </ul>
+    </div>
+
+    <div class="background_black">
+        <div class="detail_img">
+            <button class="button_close"><i class="fas fa-times"></i></button>
+            <img src="" alt="">
+        </div>
+    </div>
+<script src="./asset/js/animation.js"></script>
+<script src="./asset/js/masonry.js"></script>
+<script src="./asset/js/load.js"></script>
+<script src="./asset/js/click_heart.js"></script>
+<script src="./asset/js/sub_name.js"></script>
+<script src="./asset/js/main.js"></script>
+<script src="./asset/js/responsive.js"></script>
+</body>
+</html>
